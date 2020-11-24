@@ -51,11 +51,13 @@
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
+      <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
+      <file>blx-case-expl3.def</file>
       <file>biblatex.def</file>
-      <file>verbose.bbx</file>
-      <file>authortitle.bbx</file>
       <file>standard.bbx</file>
+      <file>authortitle.bbx</file>
+      <file>verbose.bbx</file>
       <file>verbose.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
@@ -78,6 +80,9 @@
     </provides>
     <requires type="dynamic">
       <file>Resume.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>bibliography.bib</file>
     </requires>
   </external>
 </requests>

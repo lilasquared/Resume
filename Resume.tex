@@ -1,8 +1,7 @@
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Friggeri Resume/CV
 % XeLaTeX Template
-% Version 1.0 (5/5/13)
+% Version 1.2 (3/5/15)
 %
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
@@ -22,11 +21,11 @@
 
 \documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
-%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
 
 \begin{document}
 
-\header{aaron}{roberts}{associate .net software engineer} % Your name and current job title/field
+\header{aaron}{roberts}{senior software engineer} % Your name and current job title/field
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
@@ -34,18 +33,61 @@
 
 \begin{aside} % In the aside, each new line forces a line break
 \section{contact}
-6254 Madison Drive
-Dunwoody, GA 30346
+1850 Cotillion Dr
+UNIT 3421
+Dunwoody, GA 30338
+USA
 ~
 +1 (404) 368 2881
 ~
 \href{mailto:aaronmroberts1@gmail.com}{aaronmroberts1@gmail.com}
+\href{https://www.linkedin.com/in/aaronmroberts1/}{in://aaronmroberts1}
 \href{https://www.facebook.com/AaronMRoberts}{fb://AaronMRoberts}
 \section{languages}
-JavaScript, C\#, PHP, 
-CSS3 \& HTML5, VB,
-MSSQL, MySQL
+english mother tongue
+\section{programming}
+{\color{red} $\varheartsuit$} JavaScript
+C\#, PHP, Python, MSSQL, MySQL, HTML \& CSS
 \end{aside}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2013--Now}
+{Deluxe Corporation}
+{Dunwoody, Georgia}
+{\emph{Senior Software Engineer} \\
+Developed new features SaaS based financial reporting platform and SaaS based data-driven marketing platform.
+Maintained existing legacy codebase while engineering new RESTful service API layer \& Angular UI Layer.
+Worked closely with BA and SME to drive ROI and deliver rebranded Credit Union solution.
+Lead team of interns in project to migrate existing WCF service to RESTful service
+Detailed achievements:
+\begin{itemize}
+\item Developed Automated build pipelines using Groovy \& Jenkins
+\item Increased RESTful API footprint \& Implemented React UI Layer
+\item Learned how to make more amazing coffee on a new machine
+\end{itemize}
+\emph{Software Development Intern} \\
+Fixed bugs and took lead on UI redesign and refactor for SaaS financial reporting platform.
+Implemented Bootstrap CSS framework \& EmberJS / handlebars UI layer }
+%------------------------------------------------
+\entry
+{2011--2013}
+{SAP (Formerly Sybase) (18 months)}
+{Alpharetta, Georgia}
+{\emph{Quality Assurance / Software Development Intern} \\
+Maintained and executed HP Quality Center tests for Mobile device management platform.
+Developed internal application leveraging AD authentication to automate VM and database creation \& management.
+Maintained Data Loader project that automated data entry to allow QA to load test the stystem. }
+
+\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -54,50 +96,36 @@ MSSQL, MySQL
 \section{education}
 
 \begin{entrylist}
+
 %------------------------------------------------
+
 \entry
-{2010--Present}
-{BS Candidate {\normalfont Computer Science}}
+{2010--2018}
+{Bachelor {\normalfont of Science}}
 {Southern Polytechnic State University -- Marietta, GA }
 {Minor in Mathematics}
+
 %------------------------------------------------
+
 \end{entrylist}
-
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{experience}
+\section{awards}
 
 \begin{entrylist}
+
 %------------------------------------------------
+
 \entry
-{2014--Now}
-{Deluxe Financial Services}
-{Dunwoody, Georgia}
-{\emph{Associate .Net Software Engineer} \\
-Developed new features for Banker's Dashboard, a reporting framework for small to mid sized financial institutions.
-Maintained existing legacy codebase while engineering new RESTful service API layer.
-Worked closely with BA and SME to drive ROI and deliver rebranded Credit Union solution.
-Lead team of interns in project to migrate existing WCF service to RESTful service}
+{2020}
+{New Day Recognition Award}
+{Deluxe Corporation}
+{Awarded to the 100 most impactful employees in the Deluxe New Day transformation, selected by their peers.}
+
 %------------------------------------------------
-\entry
-{2013--2014}
-{Deluxe Financial Services (8 months)}
-{Dunwoody, Georgia}
-{\emph{Software Development Intern} \\
-Fixed bugs and took lead on UI redesign and refactor for Banker's Dashboard web application.
-Implemented Bootstrap CSS framework}
-%------------------------------------------------
-\entry
-{2011--2013}
-{SAP (Formerly Sybase) (18 months)}
-{Alpharetta, Georgia}
-{\emph{Quality Assurance / Software Development Intern} \\
-Maintained and executed HP Quality Center tests for the Afaria MDM solution.
-Developed internal applications leveraging AD server for authentication to automate VM and Database management.
-Maintained Data Loader project that automated data entry to allow QA to load test the stystem. }
-%------------------------------------------------
+
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
