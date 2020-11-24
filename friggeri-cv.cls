@@ -57,8 +57,6 @@
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 
-%\setmathfont{XITS Math}
-
 %%%%%%%%%%
 % Header %
 %%%%%%%%%%
@@ -111,7 +109,7 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \raggedright\par\vspace{\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
