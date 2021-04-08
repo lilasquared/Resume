@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.bottom=543
 Class=LaTeXView
 Document=Resume.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=65
+TopLine=12
+Cursor=581
 
 [SessionInfo]
 FrameCount=1
